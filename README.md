@@ -1,6 +1,7 @@
 ### 超级社团 ###
 ------------
-本科毕业设计项目，分为移动Android端和服务器端。现在开源供大家交流与学习。本项目是服务器端的代码，Android端请查看这里。
+本科毕业设计项目，分为移动Android端和服务器端。现在开源供大家交流与学习。本项目是服务器端的代码，Android端请看[这里](https://github.com/KaiOrange/SuperAssociation)。
+
 所使用的技术有：
 
 * Java Web技术
