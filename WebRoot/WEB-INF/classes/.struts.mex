@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="sbj" location="50,50" size="170,271">
+    <action name="loginAction" location="10,20" size="150,41">
+      <result name="ok">
+        <resourceEdge source="ok" routing="0" target="index.jsp" />
+      </result>
+    </action>
+    <action name="sheTuanAction" location="10,120" size="150,41">
+      <result name="ok">
+        <resourceEdge source="ok" routing="0" target="index.jsp" />
+      </result>
+    </action>
+    <action name="u2stAction" location="10,220" size="150,41">
+      <result name="ok">
+        <resourceEdge source="ok" routing="0" target="index.jsp" />
+      </result>
+    </action>
+    <action name="sheTuanAdminAction" location="0,0" size="0,0">
+      <result name="ok">
+        <resourceEdge source="ok" routing="0" target="index.jsp" />
+      </result>
+    </action>
+    <action name="tongZhiAction" location="0,0" size="0,0">
+      <result name="ok">
+        <resourceEdge source="ok" routing="0" target="index.jsp" />
+      </result>
+    </action>
+    <action name="friendsAction" location="0,0" size="0,0">
+      <result name="ok">
+        <resourceEdge source="ok" routing="0" target="index.jsp" />
+      </result>
+    </action>
+    <action name="activityAction" location="0,0" size="0,0">
+      <result name="ok">
+        <resourceEdge source="ok" routing="0" target="index.jsp" />
+      </result>
+    </action>
+    <action name="sheTuanJiaoAction" location="0,0" size="0,0">
+      <result name="ok">
+        <resourceEdge source="ok" routing="0" target="index.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="index.jsp" path="/index.jsp" location="350,50" size="150,55" />
+</Struts2Diagram>
+

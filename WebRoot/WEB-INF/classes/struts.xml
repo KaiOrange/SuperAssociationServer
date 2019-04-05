@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="sbj" extends="struts-default">
+		<action name="loginAction" class="com.sa.action.LoginAction">
+			<result name="ok">/index.jsp</result>
+		</action>
+		<action name="sheTuanAction" class="com.sa.action.SheTuanAction">
+			<result name="ok">/index.jsp</result>
+		</action>
+		<action name="u2stAction" class="com.sa.action.U2stAction">
+			<result name="ok">/index.jsp</result>
+		</action>
+		<action name="sheTuanAdminAction" class="com.sa.action.SheTuanAdminAction">
+			<result name="ok">/index.jsp</result>
+		</action>
+		<action name="tongZhiAction" class="com.sa.action.TongZhiAction">
+			<result name="ok">/index.jsp</result>
+		</action>
+		<action name="friendsAction" class="com.sa.action.FriendsAction">
+			<result name="ok">/index.jsp</result>
+		</action>
+		<action name="activityAction" class="com.sa.action.ActivityAction">
+			<result name="ok">/index.jsp</result>
+		</action>
+		<action name="sheTuanJiaoAction" class="com.sa.action.SheTuanJiaoAction">
+			<result name="ok">/index.jsp</result>
+		</action>
+		<action name="xiaKeLiaoAction" class="com.sa.action.XiaKeLiaoAction">
+			<result name="ok">/index.jsp</result>
+		</action>
+	</package>
+</struts>    
